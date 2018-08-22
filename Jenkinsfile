@@ -1,10 +1,9 @@
-pipeline {
+
+
+node {
     triggers {
       pollSCM '* * * * */1'
     }
-}
-
-node {
 
     stage ('Preparation'){
         checkout scm
