@@ -1,8 +1,3 @@
-triggers {
-  pollSCM '* * * * */1'
-}
-
-
 node {
 
     stage ('Preparation'){
