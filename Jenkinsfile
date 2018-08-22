@@ -6,7 +6,7 @@ node {
             branches: [[name: '*/ready/**']],
             doGenerateSubmoduleConfigurations: false,
             extensions: [[$class: 'CleanBeforeCheckout'],
-            pretestedIntegration(gitIntegrationStrategy: accumulate(),
+            pretestedIntegration(gitIntegrationStrategy: accumulated(),
             integrationBranch: 'master',
             repoName: 'origin')],
             submoduleCfg: [],
