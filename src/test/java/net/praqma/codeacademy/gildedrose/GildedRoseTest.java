@@ -26,16 +26,16 @@ public class GildedRoseTest {
 
     @Test
     public void foo() {
-        assertEquals(app.items[0].sellIn, 10);
+        assertEquals(10, app.items[0].sellIn);
         app.updateQuality();
-        assertEquals(app.items[0].sellIn, 9);
+        assertEquals(9, app.items[0].sellIn);
     }
 
 
     @Test
     public void foo2() {
-        assertEquals(app.items[0].sellIn, 20);
+        assertEquals(20, app.items[0].quality);
         app.updateQuality();
-        assertEquals(app.items[0].sellIn, 19);
+        assertEquals(19, app.items[0].quality);
     }
 }
