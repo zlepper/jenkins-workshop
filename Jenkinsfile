@@ -10,7 +10,7 @@ node {
             integrationBranch: 'master',
             repoName: 'origin')],
             submoduleCfg: [],
-            userRemoteConfigs: [[credentialsId: 'zlepepr', //remember to change credentials and url.
+            userRemoteConfigs: [[credentialsId: 'id_rsa', //remember to change credentials and url.
             url: 'git@github.com:zlepper/jenkins-workshop.git']]])
     }
     
