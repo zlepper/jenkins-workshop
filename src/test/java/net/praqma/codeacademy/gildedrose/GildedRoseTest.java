@@ -31,4 +31,11 @@ public class GildedRoseTest {
         assertEquals(app.items[0].sellIn, 9);
     }
 
+
+    @Test
+    public void foo2() {
+        assertEquals(app.items[0].sellIn, 20);
+        app.updateQuality();
+        assertEquals(app.items[0].sellIn, 19);
+    }
 }
