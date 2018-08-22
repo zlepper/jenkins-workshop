@@ -29,6 +29,7 @@ public class GildedRoseTest {
         assertEquals(10, app.items[0].sellIn);
         app.updateQuality();
         assertEquals(9, app.items[0].sellIn);
+        System.out.println("Hello world");
     }
 
 
