@@ -1,9 +1,9 @@
+triggers {
+  pollSCM '* * * * */1'
+}
 
 
 node {
-    triggers {
-      pollSCM '* * * * */1'
-    }
 
     stage ('Preparation'){
         checkout scm
