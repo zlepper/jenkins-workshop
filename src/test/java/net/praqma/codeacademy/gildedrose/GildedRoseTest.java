@@ -8,6 +8,7 @@ public class GildedRoseTest {
 
     @Test
     public void foo() {
+        // This is a test
         Item[] items = new Item[] { new Item("foo", 0, 0) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
